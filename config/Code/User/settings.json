@@ -2,4 +2,5 @@
     "workbench.preferredDarkColorTheme": "Visual Studio Dark",
     "workbench.colorTheme": "Visual Studio Dark",
     "editor.acceptSuggestionOnEnter": "off",
+    "editor.formatOnSave": true,
 }
