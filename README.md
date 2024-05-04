@@ -7,10 +7,22 @@
 インストーラーの作成
 make?
 
-##Arch Linuxのパッケージ管理
+## Arch Linuxのパッケージ管理
 ```bash
 yay -S --needed - < pkglist.lst
 ```
+## config
+`$HOME`から各configファイルまでの相対パスを，`config`を起点に一致させてる．
+
+### リポジトリへのコピー
+configファイルをリポジトリにコピーする際に--parentsオプションを使うと相対パスを維持したままファイルコピーできる
+```bash
+cd ~/
+cp --parents .config/hoge/fuga.json /to_dotfile_repository/dotfiles_pub/config/
+```
+
+### リンク
+
 
 # 設定方法が特殊な人たちの備忘録
 ## GNOMEの設定
